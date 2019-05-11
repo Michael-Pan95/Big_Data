@@ -7,9 +7,7 @@ if __name__ == "__main__":
     N = None
     last_label = None
     words_in_label = 0
-    # with open('./letmesese', 'r') as f:
-    #     content = f.readlines()
-
+    
     for value_pair in sys.stdin:
         # for value_pair in content:
         value_pair = value_pair.strip()
