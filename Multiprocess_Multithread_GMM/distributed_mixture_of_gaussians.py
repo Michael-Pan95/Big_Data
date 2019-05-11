@@ -6,7 +6,7 @@ import pandas as pd
 from copy import deepcopy
 from sklearn.datasets import make_blobs
 
-address='Michael-Jobs-bb79db6ae538412a.elb.us-east-2.amazonaws.com'
+address='Michael-address-in-east-2.amazonaws.com'
 app = celery.Celery('GMM',broker='amqp://myguest:myguestpwd@'+address,backend='amqp://myguest:myguestpwd@'+address)
 
 @app.task
