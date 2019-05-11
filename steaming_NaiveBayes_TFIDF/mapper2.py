@@ -2,8 +2,6 @@
 import sys
 
 if __name__ == "__main__":
-    # with open('./letmesese', 'r') as f:
-    #     content = f.readlines()
     nt_word = None  # keep track of nt
     nt_val = None  # keep track of nt
     for value_pair in sys.stdin:
