@@ -2,28 +2,6 @@
 import sys
 import re
 
-# def reducer(key_value_pairs):
-#     last_key = None
-#     last_value = 0
-#     for key_value_pair in key_value_pairs:
-#         key, value = key_value_pair.rsplit(',', 1)
-#         value = int(value)
-#         if last_key is None:
-#             last_key = key
-#             last_value += value
-#         elif last_key == key:
-#             last_value += value
-#         else:
-#             sys.stdout.write('{0},{1}'.format(last_key, last_value) + '\n')
-#             last_key = key
-#             last_value = value
-#     sys.stdout.write('{0},{1}'.format(last_key, last_value) + '\n')
-#
-#
-# if __name__ == "__main__":
-#     key_value_pairs = sys.stdin.readlines()
-#     reducer(key_value_pairs)
-
 last_key = None
 last_value = 0
 
