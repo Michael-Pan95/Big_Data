@@ -1,7 +1,7 @@
 # Big_Data
 Works from Machine Learning with Large Datasets (10605)
 
-This repo contains some of my works:
+This repo contains some of my big-date-related works:
 
 ### GMM and multiprocessing/multithreading
 See [GMM readme.md](https://github.com/Michael-Pan95/Big_Data/blob/master/Multiprocess_Multithread_GMM/readme.md) <br>
